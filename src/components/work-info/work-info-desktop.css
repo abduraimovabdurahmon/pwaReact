@@ -1,0 +1,16 @@
+@media only screen and (min-width: 600px) {
+    .table thead th:first-child,
+    .table tbody td:first-child,
+    .table tbody th:first-child,
+    .table thead td:first-child {
+        position: sticky;
+        left: 0;
+        color: #373737;
+        background-color: white;
+    }
+    .table{
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+}
